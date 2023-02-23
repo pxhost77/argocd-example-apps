@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: order
-        image: "jinyoung/app:blue"
+        image: nginx
         ports:
         - name: http
           containerPort: 80
